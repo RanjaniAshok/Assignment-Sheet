@@ -1,0 +1,70 @@
+th,
+tr {
+    border: 3px splid white;
+    text-align: center;
+    padding: 3px !important;
+}
+
+table td {
+    padding: 0 !important;
+    border: 1px solid #000;
+}
+
+input,
+.select {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+
+}
+
+option {
+    background-color: lightgray;
+}
+
+.header {
+    display: flex;
+}
+
+#checkBox {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #343a40;
+}
+
+.checked {
+    width: 20px;
+    height: 20px;
+}
+
+.storageRow {
+    background-color: lightgray;
+    line-height: 35px;
+
+}
+
+.button,
+.buttonDelete,
+.buttonSave {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 20px;
+    background-color: #2e8b57;
+    border-radius: 6px;
+}
+
+.buttonDelete {
+    margin-right: 20px;
+    background-color: #8b0000;
+    color: #fff;
+    float: right;
+}
+
+.buttonSave {
+    margin-right: 20px;
+    float: right;
+    background-color: #1e90ff;
+
+}
